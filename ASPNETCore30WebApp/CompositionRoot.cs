@@ -7,7 +7,9 @@ namespace ASPNETCore30WebApp
     {
         public void Compose(IServiceRegistry serviceRegistry)
         {
-            serviceRegistry.Register<IThing, Thing>(new PerRequestLifeTime());
+            // You probably want PerScopeLifeTime here.
+            // http://www.lightinject.net/#scope
+            serviceRegistry.Register<IThing, Thing>(new PerScopeLifetime());
         }
     }
 

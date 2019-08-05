@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using LightInject;
 using LightInject.Microsoft.AspNetCore.Hosting;
+using LightInject.Microsoft.DependencyInjection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -22,8 +23,8 @@ namespace ASPNETCore30WebApp
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseLightInject(ContainerOptions.Default.WithAspNetCoreSettings());
                     webBuilder.UseStartup<Startup>();
-                });
+                })
+                .UseServiceProviderFactory(new LightInjectServiceProviderFactory());
     }
 }
