@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.452
+VisualStudioVersion = 16.0.29209.152
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNET22WebApp", "ASPNET22WebApp\ASPNET22WebApp.csproj", "{1058B51E-ABD7-48D2-842B-CBC8E47EBB64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETCore30WebApp", "ASPNETCore30WebApp\ASPNETCore30WebApp.csproj", "{42829417-A91A-48DA-A110-F45C7FB30A48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1058B51E-ABD7-48D2-842B-CBC8E47EBB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1058B51E-ABD7-48D2-842B-CBC8E47EBB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1058B51E-ABD7-48D2-842B-CBC8E47EBB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1058B51E-ABD7-48D2-842B-CBC8E47EBB64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42829417-A91A-48DA-A110-F45C7FB30A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42829417-A91A-48DA-A110-F45C7FB30A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42829417-A91A-48DA-A110-F45C7FB30A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42829417-A91A-48DA-A110-F45C7FB30A48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0F026A12-CDA8-42C3-A6AB-6C866C9576FC}
+		SolutionGuid = {8BC6B240-75F4-4E8F-A107-F38832D81AFD}
 	EndGlobalSection
 EndGlobal
